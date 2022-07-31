@@ -8,6 +8,7 @@ def text_indentation(text):
         text (string): The text to print.
     Raises:
         TypeError: If text is not a string.
+
     """
     special = ['.', '?', ':']
     if type(text) != str:
